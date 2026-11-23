@@ -1,0 +1,299 @@
+26/11/02 11:03:13 INFO spark.SparkContext: Running Spark version 2.2.0
+26/11/02 11:03:14 INFO spark.SparkContext: Submitted application: TP5-GraphFrames
+26/11/02 11:03:14 INFO spark.SecurityManager: Changing view acls to: root
+26/11/02 11:03:14 INFO spark.SecurityManager: Changing modify acls to: root
+26/11/02 11:03:14 INFO spark.SecurityManager: Changing view acls groups to: 
+26/11/02 11:03:14 INFO spark.SecurityManager: Changing modify acls groups to: 
+26/11/02 11:03:14 INFO spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+26/11/02 11:03:14 INFO util.Utils: Successfully started service 'sparkDriver' on port 39429.
+26/11/02 11:03:14 INFO spark.SparkEnv: Registering MapOutputTracker
+26/11/02 11:03:14 INFO spark.SparkEnv: Registering BlockManagerMaster
+26/11/02 11:03:14 INFO storage.BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+26/11/02 11:03:14 INFO storage.BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+26/11/02 11:03:14 INFO storage.DiskBlockManager: Created local directory at /tmp/blockmgr-35b821d9-fd90-4266-8ae9-de9620282720
+26/11/02 11:03:14 INFO memory.MemoryStore: MemoryStore started with capacity 2004.6 MB
+26/11/02 11:03:14 INFO spark.SparkEnv: Registering OutputCommitCoordinator
+26/11/02 11:03:14 INFO util.log: Logging initialized @3080ms
+26/11/02 11:03:14 INFO server.Server: jetty-9.3.z-SNAPSHOT
+26/11/02 11:03:14 INFO server.Server: Started @3287ms
+26/11/02 11:03:15 INFO server.AbstractConnector: Started ServerConnector@5c83c35b{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+26/11/02 11:03:15 INFO util.Utils: Successfully started service 'SparkUI' on port 4040.
+26/11/02 11:03:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@45bed228{/jobs,null,AVAILABLE,@Spark}
+26/11/02 11:03:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@6e7cb8ff{/jobs/json,null,AVAILABLE,@Spark}
+26/11/02 11:03:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@15d392b5{/jobs/job,null,AVAILABLE,@Spark}
+26/11/02 11:03:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@48129c40{/jobs/job/json,null,AVAILABLE,@Spark}
+26/11/02 11:03:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@5c389f13{/stages,null,AVAILABLE,@Spark}
+26/11/02 11:03:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@1171140f{/stages/json,null,AVAILABLE,@Spark}
+26/11/02 11:03:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@2714d490{/stages/stage,null,AVAILABLE,@Spark}
+26/11/02 11:03:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@46ad66d7{/stages/stage/json,null,AVAILABLE,@Spark}
+26/11/02 11:03:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@1a530542{/stages/pool,null,AVAILABLE,@Spark}
+26/11/02 11:03:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@140d154c{/stages/pool/json,null,AVAILABLE,@Spark}
+26/11/02 11:03:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@5200afbf{/storage,null,AVAILABLE,@Spark}
+26/11/02 11:03:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@4db826df{/storage/json,null,AVAILABLE,@Spark}
+26/11/02 11:03:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@14a85866{/storage/rdd,null,AVAILABLE,@Spark}
+26/11/02 11:03:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@36715ad4{/storage/rdd/json,null,AVAILABLE,@Spark}
+26/11/02 11:03:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@30498cae{/environment,null,AVAILABLE,@Spark}
+26/11/02 11:03:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@2e6f0f99{/environment/json,null,AVAILABLE,@Spark}
+26/11/02 11:03:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@1012db13{/executors,null,AVAILABLE,@Spark}
+26/11/02 11:03:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@769472a4{/executors/json,null,AVAILABLE,@Spark}
+26/11/02 11:03:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@cd0ce72{/executors/threadDump,null,AVAILABLE,@Spark}
+26/11/02 11:03:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@746fec6b{/executors/threadDump/json,null,AVAILABLE,@Spark}
+26/11/02 11:03:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@16816d70{/static,null,AVAILABLE,@Spark}
+26/11/02 11:03:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@1e512118{/,null,AVAILABLE,@Spark}
+26/11/02 11:03:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3a6df77{/api,null,AVAILABLE,@Spark}
+26/11/02 11:03:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@44bd5b92{/jobs/job/kill,null,AVAILABLE,@Spark}
+26/11/02 11:03:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@30e28bd6{/stages/stage/kill,null,AVAILABLE,@Spark}
+26/11/02 11:03:15 INFO ui.SparkUI: Bound SparkUI to 0.0.0.0, and started at http://172.19.0.2:4040
+26/11/02 11:03:15 INFO executor.Executor: Starting executor ID driver on host localhost
+26/11/02 11:03:15 INFO util.Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 35505.
+26/11/02 11:03:15 INFO netty.NettyBlockTransferService: Server created on 172.19.0.2:35505
+26/11/02 11:03:15 INFO storage.BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+26/11/02 11:03:15 INFO storage.BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 172.19.0.2, 35505, None)
+26/11/02 11:03:15 INFO storage.BlockManagerMasterEndpoint: Registering block manager 172.19.0.2:35505 with 2004.6 MB RAM, BlockManagerId(driver, 172.19.0.2, 35505, None)
+26/11/02 11:03:15 INFO storage.BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 172.19.0.2, 35505, None)
+26/11/02 11:03:15 INFO storage.BlockManager: Initialized BlockManager: BlockManagerId(driver, 172.19.0.2, 35505, None)
+26/11/02 11:03:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@13f4c9d4{/metrics/json,null,AVAILABLE,@Spark}
+26/11/02 11:03:15 INFO internal.SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/root/tp5/spark-warehouse/').
+26/11/02 11:03:15 INFO internal.SharedState: Warehouse path is 'file:/root/tp5/spark-warehouse/'.
+26/11/02 11:03:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@49246c46{/SQL,null,AVAILABLE,@Spark}
+26/11/02 11:03:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3b112545{/SQL/json,null,AVAILABLE,@Spark}
+26/11/02 11:03:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@69e688ee{/SQL/execution,null,AVAILABLE,@Spark}
+26/11/02 11:03:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@20353805{/SQL/execution/json,null,AVAILABLE,@Spark}
+26/11/02 11:03:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3cdd7f49{/static/sql,null,AVAILABLE,@Spark}
+26/11/02 11:03:16 INFO state.StateStoreCoordinatorRef: Registered StateStoreCoordinator endpoint
+
+======================================================================
+(1) DataFrames created
+======================================================================
+Stations rows: 70
+Trips rows   : 99
++----------+---------------------------------+---------+-----------+---------+--------+------------+
+|station_id|name                             |lat      |long       |dockcount|landmark|installation|
++----------+---------------------------------+---------+-----------+---------+--------+------------+
+|2         |San Jose Diridon Caltrain Station|37.329732|-121.901782|27       |San Jose|8/6/2013    |
+|3         |San Jose Civic Center            |37.330698|-121.888979|15       |San Jose|8/5/2013    |
+|4         |Santa Clara at Almaden           |37.333988|-121.894902|11       |San Jose|8/6/2013    |
++----------+---------------------------------+---------+-----------+---------+--------+------------+
+only showing top 3 rows
+
++-------+--------+---------------+------------------------------------+--------------+---------------+----------------------------------------+------------+------+---------------+--------+
+|Trip ID|Duration|Start Date     |Start Station                       |Start Terminal|End Date       |End Station                             |End Terminal|Bike #|Subscriber Type|Zip Code|
++-------+--------+---------------+------------------------------------+--------------+---------------+----------------------------------------+------------+------+---------------+--------+
+|913460 |765     |8/31/2015 23:26|Harry Bridges Plaza (Ferry Building)|50            |8/31/2015 23:39|San Francisco Caltrain (Townsend at 4th)|70          |288   |Subscriber     |2139    |
+|913459 |1036    |8/31/2015 23:11|San Antonio Shopping Center         |31            |8/31/2015 23:28|Mountain View City Hall                 |27          |35    |Subscriber     |95032   |
+|913455 |307     |8/31/2015 23:13|Post at Kearny                      |47            |8/31/2015 23:18|2nd at South Park                       |64          |468   |Subscriber     |94107   |
++-------+--------+---------------+------------------------------------+--------------+---------------+----------------------------------------+------------+------+---------------+--------+
+only showing top 3 rows
+
+
+======================================================================
+(2) Vertices (id = station name)
+======================================================================
++-------------------------------------+
+|id                                   |
++-------------------------------------+
+|Washington at Kearney                |
+|Clay at Battery                      |
+|Rengstorff Avenue / California Street|
+|San Antonio Caltrain Station         |
+|Davis at Jackson                     |
++-------------------------------------+
+only showing top 5 rows
+
+
+======================================================================
+(3) Edges (src -> dst)
+======================================================================
++------------------------------------+----------------------------------------+--------+
+|src                                 |dst                                     |Duration|
++------------------------------------+----------------------------------------+--------+
+|Harry Bridges Plaza (Ferry Building)|San Francisco Caltrain (Townsend at 4th)|765     |
+|San Antonio Shopping Center         |Mountain View City Hall                 |1036    |
+|Post at Kearny                      |2nd at South Park                       |307     |
+|San Jose City Hall                  |San Salvador at 1st                     |409     |
+|Embarcadero at Folsom               |Embarcadero at Sansome                  |789     |
++------------------------------------+----------------------------------------+--------+
+only showing top 5 rows
+
+
+======================================================================
+(4) GraphFrame created
+======================================================================
+Number of vertices: 70
+Number of edges   : 99
+
+======================================================================
+(5) Trips per (src, dst), descending
+======================================================================
++---------------------------------------+----------------------------------------+-----+
+|src                                    |dst                                     |count|
++---------------------------------------+----------------------------------------+-----+
+|San Francisco Caltrain 2 (330 Townsend)|Townsend at 7th                         |4    |
+|5th at Howard                          |San Francisco Caltrain 2 (330 Townsend) |3    |
+|Embarcadero at Folsom                  |Embarcadero at Sansome                  |2    |
+|Davis at Jackson                       |Embarcadero at Sansome                  |2    |
+|Market at 4th                          |San Francisco Caltrain 2 (330 Townsend) |2    |
+|Spear at Folsom                        |2nd at Townsend                         |2    |
+|Market at Sansome                      |Broadway St at Battery St               |2    |
+|Steuart at Market                      |San Francisco Caltrain (Townsend at 4th)|2    |
+|San Francisco Caltrain 2 (330 Townsend)|Powell Street BART                      |2    |
+|2nd at Townsend                        |Market at Sansome                       |2    |
++---------------------------------------+----------------------------------------+-----+
+only showing top 10 rows
+
+
+======================================================================
+(6) Trips starting or ending at 'Townsend at 7th'
+======================================================================
++---------------------------------------+------------------------------------+-----+
+|src                                    |dst                                 |count|
++---------------------------------------+------------------------------------+-----+
+|San Francisco Caltrain 2 (330 Townsend)|Townsend at 7th                     |4    |
+|Townsend at 7th                        |Spear at Folsom                     |1    |
+|5th at Howard                          |Townsend at 7th                     |1    |
+|Spear at Folsom                        |Townsend at 7th                     |1    |
+|Howard at 2nd                          |Townsend at 7th                     |1    |
+|Townsend at 7th                        |Harry Bridges Plaza (Ferry Building)|1    |
++---------------------------------------+------------------------------------+-----+
+
+
+======================================================================
+(7) Stations never reached from 'Spear at Folsom'
+======================================================================
++---------------------------------------------+
+|id                                           |
++---------------------------------------------+
+|Washington at Kearney                        |
+|Clay at Battery                              |
+|Rengstorff Avenue / California Street        |
+|San Antonio Caltrain Station                 |
+|St James Park                                |
+|Embarcadero at Bryant                        |
+|Japantown                                    |
+|Redwood City Public Library                  |
+|Powell Street BART                           |
+|Franklin at Maple                            |
+|Mountain View City Hall                      |
+|Cowper at University                         |
+|Broadway St at Battery St                    |
+|Park at Olive                                |
+|Market at Sansome                            |
+|2nd at South Park                            |
+|Mechanics Plaza (Market at Battery)          |
+|Ryland Park                                  |
+|Paseo de San Antonio                         |
+|SJSU 4th at San Carlos                       |
+|Civic Center BART (7th at Market)            |
+|Adobe on Almaden                             |
+|Grant Avenue at Columbus Avenue              |
+|San Pedro Square                             |
+|Redwood City Medical Center                  |
+|Howard at 2nd                                |
+|Arena Green / SAP Center                     |
+|Harry Bridges Plaza (Ferry Building)         |
+|South Van Ness at Market                     |
+|San Antonio Shopping Center                  |
+|San Salvador at 1st                          |
+|San Jose City Hall                           |
+|Powell at Post (Union Square)                |
+|Mezes Park                                   |
+|California Ave Caltrain Station              |
+|Steuart at Market                            |
+|Castro Street and El Camino Real             |
+|Temporary Transbay Terminal (Howard at Beale)|
+|Embarcadero at Sansome                       |
+|Commercial at Montgomery                     |
+|San Francisco City Hall                      |
+|Yerba Buena Center of the Arts (3rd @ Howard)|
+|Spear at Folsom                              |
+|Post at Kearney                              |
+|University and Emerson                       |
+|Santa Clara County Civic Center              |
+|5th at Howard                                |
+|2nd at Folsom                                |
+|Santa Clara at Almaden                       |
+|Palo Alto Caltrain Station                   |
++---------------------------------------------+
+only showing top 50 rows
+
+Count: 66
+
+======================================================================
+(8) Station with max incoming trips
+======================================================================
++---------------------------------------+--------+
+|id                                     |inDegree|
++---------------------------------------+--------+
+|San Francisco Caltrain 2 (330 Townsend)|9       |
++---------------------------------------+--------+
+only showing top 1 row
+
+
+======================================================================
+(9) Trip with the longest duration
+======================================================================
++-------+--------+---------------+---------------------+--------------+---------------+------------------------------------+------------+------+---------------+--------+
+|Trip ID|Duration|Start Date     |src                  |Start Terminal|End Date       |dst                                 |End Terminal|Bike #|Subscriber Type|Zip Code|
++-------+--------+---------------+---------------------+--------------+---------------+------------------------------------+------------+------+---------------+--------+
+|913386 |1808    |8/31/2015 20:23|Embarcadero at Bryant|54            |8/31/2015 20:53|Harry Bridges Plaza (Ferry Building)|50          |524   |Subscriber     |94105   |
++-------+--------+---------------+---------------------+--------------+---------------+------------------------------------+------------+------+---------------+--------+
+only showing top 1 row
+
+
+======================================================================
+(10) Subgraph around 'Townsend at 7th'
+======================================================================
+Subgraph vertices: 6
+Subgraph edges   : 9
++---------------------------------------+------------------------------------+
+|src                                    |dst                                 |
++---------------------------------------+------------------------------------+
+|San Francisco Caltrain 2 (330 Townsend)|Townsend at 7th                     |
+|San Francisco Caltrain 2 (330 Townsend)|Townsend at 7th                     |
+|Townsend at 7th                        |Harry Bridges Plaza (Ferry Building)|
+|Spear at Folsom                        |Townsend at 7th                     |
+|Townsend at 7th                        |Spear at Folsom                     |
++---------------------------------------+------------------------------------+
+only showing top 5 rows
+
+
+======================================================================
+(11) Triangle motif (a)->(b)->(c)->(a)
+======================================================================
++---------------------------------------+---------------------------------------+-----------------+
+|id                                     |id                                     |id               |
++---------------------------------------+---------------------------------------+-----------------+
+|Embarcadero at Sansome                 |Steuart at Market                      |2nd at Townsend  |
+|Embarcadero at Sansome                 |Market at Sansome                      |2nd at Townsend  |
+|San Francisco Caltrain 2 (330 Townsend)|Townsend at 7th                        |Spear at Folsom  |
+|Spear at Folsom                        |San Francisco Caltrain 2 (330 Townsend)|2nd at Townsend  |
+|Spear at Folsom                        |San Francisco Caltrain 2 (330 Townsend)|Townsend at 7th  |
+|Spear at Folsom                        |San Francisco Caltrain 2 (330 Townsend)|2nd at South Park|
+|Spear at Folsom                        |San Francisco Caltrain 2 (330 Townsend)|2nd at South Park|
+|Spear at Folsom                        |San Francisco Caltrain 2 (330 Townsend)|Townsend at 7th  |
+|Spear at Folsom                        |San Francisco Caltrain 2 (330 Townsend)|Townsend at 7th  |
+|Spear at Folsom                        |San Francisco Caltrain 2 (330 Townsend)|Townsend at 7th  |
++---------------------------------------+---------------------------------------+-----------------+
+only showing top 10 rows
+
+Number of triangle paths: 42
+
+======================================================================
+(12) Paths a->b->c starting at 'Townsend at 7th'
+======================================================================
++---------------+------------------------------------+----------------------------------------+
+|id             |id                                  |id                                      |
++---------------+------------------------------------+----------------------------------------+
+|Townsend at 7th|Harry Bridges Plaza (Ferry Building)|2nd at Townsend                         |
+|Townsend at 7th|Harry Bridges Plaza (Ferry Building)|Embarcadero at Bryant                   |
+|Townsend at 7th|Harry Bridges Plaza (Ferry Building)|San Francisco Caltrain (Townsend at 4th)|
+|Townsend at 7th|Spear at Folsom                     |2nd at Townsend                         |
+|Townsend at 7th|Spear at Folsom                     |Davis at Jackson                        |
+|Townsend at 7th|Spear at Folsom                     |Townsend at 7th                         |
+|Townsend at 7th|Spear at Folsom                     |2nd at Townsend                         |
+|Townsend at 7th|Spear at Folsom                     |San Francisco Caltrain 2 (330 Townsend) |
++---------------+------------------------------------+----------------------------------------+
+
+Number of paths: 8
+
+TP5 completed successfully.
