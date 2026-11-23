@@ -17,7 +17,6 @@ The dataset consists of two CSV files:
 | `station_data.csv` | Bike stations (the `name` column identifies each station) |
 | `trip_data.csv` | Bike trips, with `Start Station`, `End Station`, and `Duration` among its columns |
 
-The data files are not included in this repository.
 
 ## Project Structure
 ```
