@@ -1,4 +1,4 @@
-# TP5 – Spark GraphFrames: Bike Trip Graph Analysis
+Spark GraphFrames: Bike Trip Graph Analysis
 
 ## Overview
 This practical assignment introduces graph processing with Spark GraphX and the GraphFrames library. It consists of modeling a bike-sharing system as a directed graph, where stations are vertices and bike trips are edges, then querying it with DataFrame operations, building subgraphs, and searching for structural motifs.
